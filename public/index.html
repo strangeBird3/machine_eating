@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Should I Eat?</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h2>Eating Confusion? Who ARE YOU?</h2>
+    <p>With a few simple questions, our machine learning quantum computer
+        can help you find the most optimal meal to eat every day.
+    </p>
+    <div class="athleticQuery">
+        <form action="/recipeFinder" method="POST">
+           
+            <label for="ingredients">Ingredients:</label>
+            <input name="ingredients" type="text" id="ingredients" size="30">
+            <br>
+            <label for="recipeAmt">Amount of Recipes:</label>
+            <input name="recipeAmt" type="text" id="recipeAmt" size="30">
+            <input type="submit" value="Submit!">
+        </form>
+
+    </div>
+</body>
+</html>
